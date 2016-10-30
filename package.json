@@ -1,0 +1,30 @@
+{
+  "name": "node-express-authorization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "node ./node_modules/.bin/nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jayser/node-express-authorization.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jayser/node-express-authorization/issues"
+  },
+  "homepage": "https://github.com/Jayser/node-express-authorization#readme",
+  "devDependencies": {
+    "body-parser": "1.15.2",
+    "cookie-parser": "1.4.3",
+    "crypto": "0.0.3",
+    "express": "4.14.0",
+    "express-session": "1.14.1",
+    "jade": "1.11.0",
+    "mongoose": "4.6.5",
+    "nodemon": "1.11.0"
+  }
+}

@@ -1,0 +1,14 @@
+if user.username
+    h3= 'username: ' + user.username
+    p you are logged
+    hr
+    a(href='/logout') logout
+else
+    h2 Authorization
+    form(method='post')
+        input(type='text', name='name', placeholder='username')
+        br
+        input(type='password', name='password', placeholder='password')
+        br
+        input(type='submit', formaction="/createuser", value='sign up')
+        input(type='submit', formaction="/login", value='sign in')
