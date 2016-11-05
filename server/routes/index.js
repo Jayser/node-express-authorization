@@ -43,7 +43,7 @@ module.exports = (app) => {
   app.get('/logout', (req, res) => {
   	if (req.session.user) {
         req.session.destroy(function (err) {
-            res.clearCookie("token", { path: '/' });
+            res.clearCookie("auth-cn", { path: '/' });
             res.redirect('/');
         });
   	}
